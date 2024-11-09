@@ -1,5 +1,5 @@
-import { UseContextHook } from "./hooks/use-context";
+import { UseReducerComContextHook } from "./hooks/use-reducer-com-context";
 
 export default function App() {
-	return <UseContextHook />;
+	return <UseReducerComContextHook />;
 }

@@ -1,5 +1,5 @@
-import { UseReducerComContextHook } from "./hooks/use-reducer-com-context";
+import { MeuHookCustomizado } from "./hooks/meu-hook-customizado";
 
 export default function App() {
-	return <UseReducerComContextHook />;
+	return <MeuHookCustomizado />;
 }

@@ -1,5 +1,5 @@
-import { Home } from "./exemplo-03-use-async/use-async-custom-hook";
+import { UseDebugValueHook } from "./hooks/use-debug-value";
 
 export default function App() {
-	return <Home />;
+	return <UseDebugValueHook />;
 }

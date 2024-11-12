@@ -1,13 +1,5 @@
-import { Posts } from "./exemplo-01/components/Posts";
-import { CounterProvider } from "./exemplo-01/contexts/CounterProvider";
-import { PostsProvider } from "./exemplo-01/contexts/PostsProvider";
+import { Home } from "./exemplo-03-use-async/use-async-custom-hook";
 
 export default function App() {
-	return (
-		<PostsProvider>
-			<CounterProvider>
-				<Posts />
-			</CounterProvider>
-		</PostsProvider>
-	);
+	return <Home />;
 }

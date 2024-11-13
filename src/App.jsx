@@ -1,5 +1,5 @@
-import { CompoundComponent } from "./exemplo-05-compound-component/compound-component";
+import { Home } from "./exmplo-06-lazy-component/lazy-component";
 
 export default function App() {
-	return <CompoundComponent />;
+	return <Home />;
 }

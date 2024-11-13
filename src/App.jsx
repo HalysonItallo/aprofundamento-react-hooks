@@ -1,5 +1,5 @@
-import { ItWillThrowError } from "./exemplo-04-error-boundary/it-will-throw-error";
+import { CompoundComponent } from "./exemplo-05-compound-component/compound-component";
 
 export default function App() {
-	return <ItWillThrowError />;
+	return <CompoundComponent />;
 }
